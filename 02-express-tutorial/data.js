@@ -39,4 +39,13 @@ const people = [
   { id: 4, name: 'anna' },
   { id: 5, name: 'emma' },
 ]
-module.exports = { products, people }
+
+const movies = [
+  { id: 1 , name: 'The Shawshank Redemption', rating: 9.3 },
+  { id: 2 , name: 'The Godfather', rating: 9.2 },
+  { id: 3 , name: 'The Dark Knight', rating: 9.0 },
+  { id: 4 , name: 'Pulp Fiction', rating: 8.9 },
+  { id: 5 , name: 'Fight Club', rating: 8.8 }
+];
+
+module.exports = { products, people, movies }
